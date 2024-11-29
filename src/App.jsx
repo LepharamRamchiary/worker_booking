@@ -1,10 +1,17 @@
+import React from "react";
+import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
+import Home from "./pages/Home";
 import './index.css'
 
-function App() {
-
+const App = () => {
   return (
-    <div className='text-3xl text-red-600'>Hello World</div>
-  )
-}
+    <div>
+      <Navbar />
+      <Home />
+      <Footer />
+    </div>
+  );
+};
 
-export default App
+export default App;
