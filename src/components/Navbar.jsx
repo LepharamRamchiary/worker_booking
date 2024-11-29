@@ -27,9 +27,9 @@ const Navbar = () => {
           </svg>
         </button>
         <ul
-          className={`sm:flex md:flex md:flex-row flex flex-col items-center justify-center md:space-x-4  sm:space-x-4 sm:static absolute sm:w-auto w-full sm:p-0 p-4 sm:mt-0 mt-2 transition-transform ${
+          className={`sm:flex md:flex md:flex-row flex flex-col items-center justify-center md:space-x-4  sm:space-x-4 sm:static absolute sm:w-auto w-full sm:p-0 p-4 sm:mt-0 transition-transform ${
             isOpen ? "top-16 left-0" : "-top-96"
-          }`}
+          } bg-blue-500 sm:bg-transparent`}
         >
           <li>
             <a href="#" className="block hover:underline">
