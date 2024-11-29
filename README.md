@@ -1,8 +1,11 @@
-# React + Vite
+# Worker Booking Introduction
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+The Worker Booking System is a simple and convenient platform currently under development. It is designed to help people easily book skilled workers for their daily needs, such as household chores, repairs, or other tasks. Users will be able to choose their preferred date, time, and worker, with flexible payment options available in both online and offline modes. This system aims to make finding and hiring workers effortless and hassle-free.
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Tech Use
+- Vite
+- React
+- Express
+- Node
+- MongoDB
+- Tailwind css
