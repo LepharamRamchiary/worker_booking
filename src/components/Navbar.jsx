@@ -37,7 +37,7 @@ const Navbar = () => {
             </a>
           </li>
           <li>
-            <a href="#" className="block hover:underline">
+            <a href="/about" className="block hover:underline">
               About
             </a>
           </li>
