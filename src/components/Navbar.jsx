@@ -6,7 +6,7 @@ const Navbar = () => {
   return (
     <nav className="bg-gradient-to-r from-pink-500 to-blue-600 text-white p-4">
       <div className="container mx-auto flex justify-between items-center">
-        <h1 className="text-2xl font-bold">Worker Booking</h1>
+        <a href="/" className="text-2xl font-bold">Worker Booking</a>
         <button
           className="sm:hidden block text-white focus:outline-none"
           onClick={() => setIsOpen(!isOpen)}
@@ -32,7 +32,7 @@ const Navbar = () => {
           } bg-blue-500 sm:bg-transparent`}
         >
           <li>
-            <a href="#" className="block hover:underline">
+            <a href="/" className="block hover:underline">
               Home
             </a>
           </li>
@@ -47,7 +47,7 @@ const Navbar = () => {
             </a>
           </li>
           <li>
-            <a href="#" className="block hover:underline">
+            <a href="/register" className="block hover:underline">
               Register
             </a>
           </li>
