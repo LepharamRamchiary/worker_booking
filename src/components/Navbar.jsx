@@ -52,7 +52,7 @@ const Navbar = () => {
             </a>
           </li>
           <li>
-            <a href="#" className="block hover:underline">
+            <a href="/login" className="block hover:underline">
               Login
             </a>
           </li>
