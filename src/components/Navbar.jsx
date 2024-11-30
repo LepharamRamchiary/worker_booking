@@ -13,7 +13,7 @@ const Navbar = () => {
         >
           <svg
             className="w-6 h-6"
-            xmlns="http://www.w3.org/2000/svg"
+            // xmlns="http://www.w3.org/2000/svg"
             fill="none"
             viewBox="0 0 24 24"
             stroke="currentColor"
@@ -42,8 +42,8 @@ const Navbar = () => {
             </a>
           </li>
           <li>
-            <a href="#" className="block hover:underline">
-              Contact
+            <a href="/contact" className="block hover:underline">
+              Contact Us
             </a>
           </li>
           <li>

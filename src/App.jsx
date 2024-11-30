@@ -5,6 +5,7 @@ import Footer from "./components/Footer";
 import Home from "./pages/Home";
 import Register from "./pages/Register";
 import Login from "./pages/Login";
+import Contact from "./pages/ContactUs";
 import "./index.css";
 
 const App = () => {
@@ -13,11 +14,11 @@ const App = () => {
       <div>
         <Navbar />
         <main className="min-h-[calc(100vh-160px)]">
-          {" "}
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/register" element={<Register />} />
-            <Route path="/login" element={<Login/>} />
+            <Route path="/login" element={<Login />} />
+            <Route path="/contact" element={<Contact />} />
           </Routes>
         </main>
         <Footer />
