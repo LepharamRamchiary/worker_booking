@@ -7,6 +7,7 @@ import Register from "./pages/Register";
 import Login from "./pages/Login";
 import Contact from "./pages/ContactUs";
 import About from "./pages/About";
+import Forgot from "./pages/ForgotPassword";
 import "./index.css";
 
 const App = () => {
@@ -21,6 +22,7 @@ const App = () => {
             <Route path="/login" element={<Login />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/about" element={<About />} />
+            <Route path="/forgot" element={<Forgot />} />
           </Routes>
         </main>
         <Footer />

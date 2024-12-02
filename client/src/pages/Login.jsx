@@ -55,6 +55,10 @@ const Login = () => {
             />
           </div>
 
+          <div className="flex justify-center my-3 text-sm md:text-lg underline text-blue-400">
+            <a href="/forgot">Forgot Password</a>
+          </div>
+
           {/* Submit Button */}
           <button
             type="submit"
